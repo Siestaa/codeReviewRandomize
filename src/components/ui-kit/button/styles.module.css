@@ -1,0 +1,44 @@
+.buttonContainer {
+    margin: 16px;
+}
+
+.button {
+    font-family: 'Jura', cursive, sans-serif;
+    border: none;
+    background-color: var(--button-color);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 1000ms;
+    box-sizing: content-box;
+    outline: 5px double var(--secondary-color);
+    outline-offset: -10px;
+    color: var(--text-color);
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+    outline: 5px double var(--button-color);
+    outline-offset: -5px;
+}
+
+.s_size {
+    min-width: 64px;
+    padding: 12px;
+    font-size: 0.75em;
+}
+
+.s_size:hover {
+    transform: translate(2px 2px);
+}
+
+.m_size {
+    min-width: 96px;
+    padding: 14px;
+    font-size: 1em;
+}
+
+.l_size {
+    min-width: 128px;
+    padding: 15px;
+    font-size: 1.25em;
+}

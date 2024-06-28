@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: 'codeReviewRandomize',
-  plugins: [react()],
+  plugins: [react()]  
 })
