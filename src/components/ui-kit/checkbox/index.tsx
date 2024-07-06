@@ -1,17 +1,19 @@
 import { CheckboxProps } from "./checkbox.types"
 import styles from "./styles.module.css"
-import clsx from "clsx"
 
 export const Checkbox = (props: CheckboxProps) => {
   return (
-    <div>
-      <label htmlFor={props.id}>{props.title}</label>
+    <div key={props.id} className={styles.checkboxContainer}>
+      <label htmlFor={props.id} className={styles.checkboxLabel}>
+        {props.title}
+        <span className={styles.checkbox} />
+      </label>
       <input
         id={props.id}
         type="checkbox"
         name={props.name}
         value={props.checked}
-        className={clsx(styles.checkbox)}
+        className={styles.checkboxInput}
       />
     </div>
   )

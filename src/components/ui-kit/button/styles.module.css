@@ -1,7 +1,3 @@
-.buttonContainer {
-    margin: 16px;
-}
-
 .button {
     font-family: 'Jura', cursive, sans-serif;
     border: none;
@@ -13,6 +9,11 @@
     outline: 5px double var(--secondary-color);
     outline-offset: -10px;
     color: var(--text-color);
+    user-select: none;
+    width: fit-content;
+    transition: 0.5s;
+    box-sizing: border-box;
+    white-space: nowrap;
 }
 
 .button:hover {

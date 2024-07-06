@@ -1,0 +1,48 @@
+.developersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: var(--button-color);
+    width: 300px;
+}
+
+.developersArrow {
+    padding: 4px;
+    font-weight: 700;
+    background-color: var(--button-color);
+    margin-bottom: 5px;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+}
+
+.developersButtons {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: start;
+}
+
+.buttonContainer [class*="button"] {
+    width: 300px;
+    margin-right: 5px;
+}
+
+.withInput [class*="button"] {
+    width: 80px;
+}
+
+.buttonContainer [class*="textboxInput"] {
+    width: 0px;
+    padding: 1px 0px;
+    transform: translateX(-5px);
+}
+
+.withInput [class*="textboxInput"] {
+    width: 215px;
+    padding: 1px 2px;
+    transform: translateX(0);
+}

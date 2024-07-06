@@ -6,6 +6,7 @@ export const Button = (props: ButtonProps) => {
   return (
     <div className={clsx(styles.buttonContainer)}>
       <button
+        type="button"
         className={clsx(
           styles.button,
           props.size === "s"

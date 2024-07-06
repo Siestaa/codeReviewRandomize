@@ -19,6 +19,7 @@ body {
   height: 100%;
   font-family: 'Jura', cursive, sans-serif;
   font-size: 14px;
+  color: var(--text-color)
 }
 
 #root {

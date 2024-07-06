@@ -1,0 +1,24 @@
+.textboxContainer {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.textboxLabel {
+    padding-right: 10px;
+}
+
+.textboxInput {
+    background-color: var(--button-color);
+    border: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.textboxInput::placeholder {
+    color: var(--text-color);
+}
+
+.textboxInput:focus {
+    outline: none;
+}
